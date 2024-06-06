@@ -1,0 +1,15 @@
+
+{
+"version":2,
+"builds": [{
+    "DB registros": "./index.js",
+    "use": "@vercel/node"
+}
+],
+"routes": [
+    {
+        "DB registros":"/(.*)",
+        "dest": "/"
+    }
+]
+}
