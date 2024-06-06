@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 const port = process.env.PORT ||3000;
-const baseUrl = "https://daybreak-aj7tbi7wr-luans-projects-946bd772.vercel.app";
+const baseUrl = "https://api-users-hhbq.vercel.app/";
 
 // Middleware para analisar o corpo da solicitação como JSON
 app.use(express.json());
